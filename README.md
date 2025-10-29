@@ -50,6 +50,12 @@ terraform apply -auto-approve
 terraform destroy -auto-approve
 ```
 
+```bash:bash
+# Server settings.
+
+
+```
+
 ## Notes
 
 - The deployment was tested on windows.
