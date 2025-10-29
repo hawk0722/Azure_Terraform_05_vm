@@ -68,7 +68,7 @@ resource "azurerm_linux_virtual_machine" "vm_linux_p4d" {
   }
 }
 
-# Por p4p Linux VM
+# For p4p Linux VM
 resource "azurerm_public_ip" "pip_p4p" {
   name                = "pip-linux-${var.env}-${var.code}-p4p"
   location            = var.location
@@ -116,4 +116,3 @@ resource "azurerm_linux_virtual_machine" "vm_linux_p4p" {
     version   = var.vm_linux_img_version
   }
 }
-

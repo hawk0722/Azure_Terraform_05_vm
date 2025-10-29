@@ -50,12 +50,13 @@ terraform apply -auto-approve
 terraform destroy -auto-approve
 ```
 
-```bash:bash
-# Server settings.
+## Server settings.
 
+[【Azure】Perforce サーバー（p4d）とプロキシ（p4p）の構築手順まとめ](https://qiita.com/takaki-imura/items/99bc420b5b783f0c178b)
 
 ```
 
 ## Notes
 
 - The deployment was tested on windows.
+```
